@@ -1,0 +1,41 @@
+body{
+    background: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #539CF2;
+    padding: 30px;
+    text-align: right;
+    box-shadow: 0 0 3px #000;
+    font-family: sans-serif;
+}
+
+header li{
+    display: inline;
+    padding-left: 45px;
+
+}
+
+header li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+header li a:hover{
+    color: white;
+    transition: .3s ease;
+}
+
+header ul login a{
+    color: #fff;
+    background-color: royalblue;
+    border-radius: 30px;
+}
+
+header li img{
+    width: 180px;
+    float: left;
+}
