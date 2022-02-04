@@ -13,7 +13,7 @@ body {
 .header {
   overflow: hidden;
   background-color: #539cf2;
-  padding: 10px 10px;
+  padding: 5px 5px;
 }
 
 .header a {
@@ -23,8 +23,8 @@ body {
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
-  line-height: 15px;
-  border-radius: 50px;
+  line-height: 10px;
+  border-radius: 30px;
 }
 
 .header a.logo {
@@ -33,17 +33,21 @@ body {
 }
 
 .header a:hover {
-  background-color: #01497c;
+  filter: invert(1);
+  background-color: black;
   color: white;
+  cursor: pointer;
+  transition: .3s ease;
+  transform: scale(1.07);
 }
-
-.header a.active {
+/*.header a.active {
   background-color: 0;
   color: white;
-}
+}*/
 
 .header-right {
   float: right;
+  padding: 20px
 }
 
 @media screen and (max-width: 500px) {
@@ -63,7 +67,7 @@ body {
 
 <div class="header">
   <a>
-    <img src="![HEADER](/Museu_Paleo/docs/assets/head_icon.png)" alt="Logo Museu" width="200">
+    <img src="/home/rauan/Documentos/GitHub/Museu_Paleo/general_icons/head_icon.png" alt="Logo Museu" width="200">
   </a>
   <div class="header-right">
     <a class="active" href="#home">Home</a>
@@ -73,9 +77,8 @@ body {
 </div>
 
 <div style="padding-left:20px">
-  <h1>Responsive Header</h1>
-  <p>Resize the browser window to see the effect.</p>
-  <p>Some content..</p>
+  <h1>Bem-vindo à PaleoFauna Digital!</h1>
+
 </div>
 
 </body>
